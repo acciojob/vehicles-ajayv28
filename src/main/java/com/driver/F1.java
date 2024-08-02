@@ -26,7 +26,7 @@ public class F1 extends Car {
             gear = 4;
         else if(newSpeed >=201 && newSpeed <= 250)
             gear = 5;
-        else if(newSpeed >= 250)
+        else if(newSpeed >= 251)
             gear = 6;
         /**
          * speed 0: gear 1

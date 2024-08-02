@@ -23,6 +23,19 @@ public class Car extends Vehicle {
         this.currentGear = 0;
     }
 
+    public Car() {
+        //Hint: Car extends Vehicle
+        super();
+
+        this.wheels = 0;
+        this.type = "";
+        this.doors = 0;
+        this.gears = 0;
+        this.isManual = false;
+        this.seats = 0;
+        this.currentGear = 0;
+    }
+
     public void setCurrentGear(int currentGear) {
         this.currentGear = currentGear;
     }

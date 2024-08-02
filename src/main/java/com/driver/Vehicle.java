@@ -12,6 +12,12 @@ public class Vehicle {
         this.currentDirection = 0;
     }
 
+    public Vehicle() {
+        this.name = "";
+        this.currentSpeed = 0;
+        this.currentDirection = 0;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
